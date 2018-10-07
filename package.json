@@ -1,0 +1,32 @@
+{
+  "name": "tlru-cache",
+  "version": "1.0.0",
+  "description": "Time aware least recently used cache storage",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "npx jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "cache",
+    "storage",
+    "tlru"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^23.3.2",
+    "jest": "^23.6.0",
+    "jest-date-mock": "^1.0.5",
+    "ts-jest": "^23.10.2",
+    "typescript": "^3.1.1"
+  },
+  "dependencies": {},
+  "jest": {
+    "setupFiles": [
+      "jest-date-mock"
+    ]
+  }
+}
